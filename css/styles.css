@@ -70,6 +70,8 @@ img {
     --button-color: #4d5ae5;
     --main-button: #e7e9fc;
     --link-color: #8e8f99;
+    --navy-blue: #2E2F42;
+    --NAVY-BLUE-modal: rgba(46, 47, 66, 0.4);
 }
 
 .container {
