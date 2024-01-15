@@ -446,8 +446,8 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
-          <div class="modal-content-container">
-            <label class="modal-content" for="user-name">Name</label>
+          <div class="modal-field-container">
+            <label class="modal-field" for="user-name">Name</label>
             <div class="input-container">
               <input
                 required
@@ -462,8 +462,8 @@
               </svg>
             </div>
           </div>
-          <div class="modal-content-container">
-            <label class="modal-content" for="user-phone">Phone</label>
+          <div class="modal-field-container">
+            <label class="modal-field" for="user-phone">Phone</label>
             <div class="input-container">
               <input
                 required
@@ -477,8 +477,8 @@
               </svg>
             </div>
           </div>
-          <div class="modal-content-container">
-            <label class="modal-content" for="user-email">Email</label>
+          <div class="modal-field-container">
+            <label class="modal-field" for="user-email">Email</label>
             <div class="input-container">
               <input
                 required
@@ -492,8 +492,8 @@
               </svg>
             </div>
           </div>
-          <div class="modal-content-container">
-            <label class="modal-content" for="user-comment">Comment</label
+          <div class="modal-field-container align-comment-field">
+            <label class="modal-field" for="user-comment">Comment</label
             ><textarea
               class="comment-field"
               id="user-comment"
@@ -503,17 +503,23 @@
             ></textarea>
           </div>
           <div class="checkbox-container">
-            <input class="checkbox-input" id="check" type="checkbox" />
-            <label class="checkbox" for="checks">
-              <span>
-                <svg class="checkbox-symbol" width="12px" height="10px">
-                  <use href="./images/icons.svg#icon-Property-1click"></use>
+            <input
+              class="inp visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
+            <label class="form-label modal-field" for="user-privacy">
+              <span class="checkbox-icon">
+                <svg width="10" height="8" class="svg-checkbox">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
-              <span>I accept the terms and conditions of the Privacy Policy</span>
+              I accept the terms and conditions of the
+              <a class="privacy_policy_link" href="">Privacy Policy</a>
             </label>
           </div>
-
           <button type="submit" class="button-send">Send</button>
         </form>
       </div>
