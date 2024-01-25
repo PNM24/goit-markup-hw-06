@@ -830,7 +830,7 @@ body {
 .input-subscribe {
     display: inline-flex;
     padding-left: 16px;
-    padding: 8px 24px;
+    padding: 8px;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
